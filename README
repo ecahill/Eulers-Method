@@ -1,0 +1,17 @@
+My program, EulersMethod, requires MATLAB R2012a. It should be opened in Matlab and saved 
+as a EulersMethod.m file. 
+
+Use:
+To begin using the program, start in the Command Window. Before running the function, 
+choose your F(x,y). To enter this, type "F = @(x,y)[f(x,y);g(x,y)]", entering your 
+f(x,y) and g(x,y) functions respectively. To enter your initial x value, type 
+"x0 =" and then type your initial value of x. To enter your initial y value, type 
+"y0 =" and then type your initial value of y. Next, to run the program, enter the function and 
+its parameters in the following manner: "[x,y] = EulersMethod(h, x0, y0, T, F)" subbing in your
+h and T values for those specific parameters, while leaving x0, y0, and F as the variable names.
+The output will be the final x and y coordinates and a graph of the three approximations.
+
+Troubleshooting:
+If an error comes up while entering the F(x,y) in the command window, double check that all 
+parentheses and brackets are closed. Also, ensure that proper Matlab syntax is being used.
+(E.g. x*y as opposed to xy).
